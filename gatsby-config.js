@@ -37,11 +37,11 @@ module.exports = {
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
-        basePath: "/",
+        basePath: "/public",
         authorsPage: true,
         sources: {
           local: true,
-          // contentful: true,
+          contentful: true,
         },
       },
     },
